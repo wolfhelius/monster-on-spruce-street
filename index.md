@@ -5,6 +5,9 @@ nav_order: 1
 description: "Adam Wolf, 82 Spruce Street — regarding the proposed development at 86–88 and 92–94 Spruce Street"
 ---
 
+![The Monster on Spruce Street — postcard distributed to neighbors](fig/MonsterPostcard.png)
+{: .text-center }
+
 # A Note to My Neighbors on Spruce Street and Pine Street
 {: .no_toc }
 

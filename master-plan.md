@@ -49,17 +49,17 @@ These are genuine points of alignment. They do not, however, address the more si
 
 The Master Plan's foundational growth framework directs high-density development to *"the most densely developed areas of the Municipality...in and around the historic downtown and the Princeton Shopping Center,"* with progressively lower densities moving away from the center. The Reexamination Report confirms that future density increases should focus *"in the already-developed areas surrounding the downtown core and the Princeton Shopping Center."* Spruce Street is a mid-block residential street approximately half a mile from the downtown core, not identified in the Master Plan as a density node.
 
-The numbers tell the story. At 42 total units on 0.69 acres, the proposed development would reach approximately **61 units per acre** — a density that exceeds every comparable Princeton residential district by a wide margin:
+The numbers tell the story. At 42 total units on 0.66 acres, the proposed development would reach approximately **64 units per acre** — a density that exceeds every comparable Princeton residential district by a wide margin:
 
 | District / Development | Density (units/acre) |
 |:----------------------|---------------------:|
 | MX (Mixed Use) district — code maximum | 14 |
 | R4A (adjacent affordable housing overlay) — code maximum | ~17 |
 | The Alice, N. Harrison St. (125 units on 6 acres, near transit hub) | 21 |
-| Existing 86–96 Spruce St. (12 units on 0.69 acres) | 17 |
-| **Proposed AH-12: 86–96 Spruce St. (42 total units on 0.69 acres)** | **61 — proposed** |
+| Existing 86–96 Spruce St. (12 units on 0.66 acres) | 18 |
+| **Proposed AH-12: 86–96 Spruce St. (42 total units on 0.66 acres)** | **64 — proposed** |
 
-The proposed density is **4.4 times** the Mixed Use district's code ceiling, **3.6 times** the maximum permitted in the adjacent R4A affordable housing overlay, and **2.9 times** the density of The Alice — itself a purpose-built transit-oriented development adjacent to Princeton's major shopping and transit hub, which required an 831-page stormwater management plan as a condition of approval.
+The proposed density is **4.6 times** the Mixed Use district's code ceiling, **3.8 times** the maximum permitted in the adjacent R4A affordable housing overlay, and **3.0 times** the density of The Alice — itself a purpose-built transit-oriented development adjacent to Princeton's major shopping and transit hub, which required an 831-page stormwater management plan as a condition of approval.
 
 ### 2. Missing Middle vs. Monolithic Scale
 
@@ -99,7 +99,7 @@ The Master Plan prioritizes *"preservation, maintenance, and expansion"* of Prin
 
 | Master Plan Goal | Assessment for 86–96 Spruce St. |
 |:----------------|:--------------------------------|
-| Dense development near downtown / Shopping Center | **Inconsistent** — 61 du/acre in mid-block residential neighborhood, 4.4× the MX district cap |
+| Dense development near downtown / Shopping Center | **Inconsistent** — 64 du/acre in mid-block residential neighborhood, 4.6× the MX district cap |
 | Missing middle: scale-compatible with single-family context | **Partially consistent** — townhouses yes; 23-unit block does not qualify |
 | Net affordable housing beyond inclusionary baseline | **Marginally consistent** — only 2 units above mandatory 20% set-aside |
 | Stormwater: development away from surface waters | **Inconsistent** — 75% impervious adjacent to Harry's Brook; rain gardens from 2019–20 eliminated; no study performed |

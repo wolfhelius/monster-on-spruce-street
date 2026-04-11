@@ -2,7 +2,7 @@
 
 Informational site for neighbors regarding the proposed 30-unit development at 86–96 Spruce Street, Princeton NJ (Ordinance #2026-07 / AH-12 rezoning).
 
-**Live site:** https://yourusername.github.io/giant-on-spruce-street/
+**Live site:** https://wolfhelius.github.io/monster-on-spruce-street/
 
 ---
 
@@ -10,19 +10,18 @@ Informational site for neighbors regarding the proposed 30-unit development at 8
 
 ### First time
 
-1. [Create a GitHub account](https://github.com) if you don't have one
-2. Create a new repository named `giant-on-spruce-street` (or whatever you prefer)
-3. Upload these files, or clone and push:
+1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/giant-on-spruce-street
-   # copy these files in
+   git clone https://github.com/wolfhelius/monster-on-spruce-street
+   cd monster-on-spruce-street
+   ```
+2. Make changes, then commit and push:
+   ```bash
    git add .
-   git commit -m "Initial site"
+   git commit -m "Update site"
    git push
    ```
-4. Go to **Settings → Pages** in your GitHub repo
-5. Under **Source**, select `Deploy from a branch` → `main` → `/ (root)`
-6. Click Save — your site will be live at `https://yourusername.github.io/giant-on-spruce-street/` within a minute or two
+3. GitHub Pages is configured under **Settings → Pages** to deploy from the `main` branch (root). The site updates automatically within a minute or two of each push at `https://wolfhelius.github.io/monster-on-spruce-street/`.
 
 ### Custom domain (optional)
 
@@ -33,7 +32,7 @@ Informational site for neighbors regarding the proposed 30-unit development at 8
    A     @    185.199.109.153
    A     @    185.199.110.153
    A     @    185.199.111.153
-   CNAME www  yourusername.github.io
+   CNAME www  wolfhelius.github.io
    ```
 3. In GitHub repo Settings → Pages, enter your custom domain
 4. Update `url` and `baseurl` in `_config.yml`:
@@ -82,7 +81,7 @@ Informational site for neighbors regarding the proposed 30-unit development at 8
 ## File structure
 
 ```
-giant-on-spruce-street/
+monster-on-spruce-street/
 ├── index.md              ← Main page (Dear Neighbor letter)
 ├── master-plan.md        ← Master Plan inconsistencies analysis
 ├── documents.md          ← Document index
