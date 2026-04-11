@@ -41,7 +41,7 @@ My concern is not whether affordable housing should be built near me. My concern
 
 ## What Is Being Proposed
 
-The two parcels at 86–88 Spruce Street (the large apartment building) and 92–94 Spruce Street (the duplex next to it) were rezoned by the Princeton Council in February 2026 to a new zone called "AH-12," created exclusively for these two lots. Under this new zoning, a developer plans to add 30 new residential units to the site, bringing the total to 42 units on 0.66 acres.
+The two parcels at 86–88 Spruce Street (the large apartment building) and 92–94 Spruce Street (the duplex next to it) were [rezoned by the Princeton Council in February 2026](docs/appendix-a-ordinance.pdf) to a new zone called "AH-12," created exclusively for these two lots. Under this new zoning, a developer plans to add 30 new residential units to the site, bringing the total to 42 units on 0.66 acres.
 
 That works out to approximately **64 units per acre**. To put that in perspective:
 
@@ -69,19 +69,19 @@ Council President Mia Sacks described this site publicly as "a late inclusion to
 
 Specifically:
 
-**No stormwater analysis was performed.** The site sits adjacent to a culverted section of Harry's Brook. Prior development here in 2019–2020 was conditioned on installing rain gardens to manage runoff. The new plan would eliminate those rain gardens and cover nearly the entire site in pavement, without any engineering study of the downstream impact.
+**No stormwater analysis was performed.** The site sits adjacent to a culverted section of Harry's Brook. [Prior development here in 2019–2020 was conditioned on installing rain gardens](docs/rain-gardens-86-spruce.pdf) to manage runoff. The new plan would eliminate those rain gardens and cover nearly the entire site in pavement, without any engineering study of the downstream impact.
 
 **No traffic study was performed.** Hamilton Avenue — where Pine Street connects — is identified in Princeton's own Master Plan as a Vision Zero safety priority corridor requiring improvements. Adding significant new vehicle trips through a narrow dead-end street was not studied.
 
-**Key standards were quietly reduced.** Between the draft ordinance filed with the Superior Court in June 2025 and the final version adopted in February 2026, the minimum building separation was reduced from 15 feet to 5 feet and the parking ratio was reduced from 0.55 to 0.425 spaces per unit. There was no public explanation of why.
+**Key standards were quietly reduced.** Between the [draft ordinance](docs/appendix-e-draft-ordinance.pdf) filed with the Superior Court in June 2025 and the [final version](docs/appendix-a-ordinance.pdf) adopted in February 2026, the minimum building separation was reduced from 15 feet to 5 feet and the parking ratio was reduced from 0.55 to 0.425 spaces per unit. There was no public explanation of why.
 
-**Notice was defective.** The published notice of the ordinance did not identify the property by street address or describe what was changing. And I — a next-door neighbor — never received the certified mail notice that New Jersey law requires be sent to property owners within 200 feet before a zoning change is adopted.
+**Notice was defective.** The [published notice of the ordinance](docs/appendix-c-notice.pdf) did not identify the property by street address or describe what was changing. And I — a next-door neighbor — never received the certified mail notice that New Jersey law requires be sent to property owners within 200 feet before a zoning change is adopted.
 
 That last point matters. New Jersey's Municipal Land Use Law (N.J.S.A. 40:55D-62.1) requires certified mail to 200-foot neighbors at least 10 days before a rezoning hearing. It is a statutory right, not a formality. Courts have held that failure to provide it can render an ordinance void.
 
 ## What Has Happened Since
 
-I retained a land use attorney who reviewed the record and filed a formal legal challenge in Mercer County Superior Court on April 9, 2026. The challenge argues that the ordinance should be declared void due to defective notice, and that the rezoning is inconsistent with Princeton's own 2023 Master Plan — a plan that our community spent two years and hundreds of public comments helping to shape.
+I retained a land use attorney who reviewed the record and [filed a formal legal challenge](docs/legal-challenge.pdf) in Mercer County Superior Court on April 9, 2026. The challenge argues that the ordinance should be declared void due to defective notice, and that the rezoning is inconsistent with [Princeton's own 2023 Master Plan](docs/princeton-master-plan-2023.pdf) — a plan that our community spent two years and hundreds of public comments helping to shape.
 
 I want to be clear about what the challenge does and does not seek. It does not challenge Princeton's Fourth Round Housing Plan as a whole, which I support. It does not seek to prevent affordable housing from being built in our neighborhood. It argues that this specific ordinance, applied to this specific site, was adopted without proper notice or adequate analysis — and that the community deserves a proper process.
 
