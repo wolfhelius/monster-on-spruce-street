@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Financial Analysis
-nav_order: 5
+nav_order: 3
 description: "A developer pro forma for the proposed Spruce Path development — estimating construction costs, rental income, asset value, and the implicit public subsidy embedded in the AH-12 rezoning."
 ---
 
