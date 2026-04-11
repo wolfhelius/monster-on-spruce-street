@@ -51,7 +51,7 @@ From the architect's plans (Marina Rubina, Architect, dated 05.30.2025) and conf
 | Existing buildings (retained) | 2 | — | ~4,000 sqft |
 | **Total new construction** | **30** | | **~23,355 sqft** |
 
-The combined site is 0.69 acres. Total units after development: 42 (12 existing + 30 new).
+The combined site is 0.66 acres. Total units after development: 42 (12 existing + 30 new).
 
 The unit mix skews heavily toward small 1BR and studio-scale apartments (26 of 30 new units are under 700 sqft), with 3 large premium units likely commanding 3BR rents. This mix is financially significant: small units maximize unit count per sqft of construction, improving the developer's yield per dollar spent.
 
@@ -59,15 +59,14 @@ The unit mix skews heavily toward small 1BR and studio-scale apartments (26 of 3
 
 New multifamily construction in New Jersey runs approximately **$300–$450 per square foot** for hard costs in 2025, reflecting NJ's above-average labor and materials costs. This analysis uses $350/sqft as the baseline for the 23,355 sqft of new construction.
 
-Soft costs — architecture, engineering, permits, legal fees, and construction loan interest — typically add 20–25% to hard costs on projects of this scale. Land is treated as a sunk cost (the developer acquired the existing parcels), estimated at approximately $1.2M based on Mercer County assessed values for the combined lots.
+Soft costs — architecture, engineering, permits, legal fees, and construction loan interest — typically add 20–25% to hard costs on projects of this scale. Land is excluded from this analysis — the developer acquired the parcels prior to the rezoning and carries no land acquisition cost in the pro forma.
 
 | Cost category | Estimate |
 |:--------------|:---------|
 | Hard costs (23,355 sqft × $350/sqft) | ~$8.2M |
 | Soft costs (~25% of hard) | ~$2.0M |
-| Land acquisition | ~$1.2M |
 | Financing costs (~6% of total) | ~$0.7M |
-| **Total development cost** | **~$12.1M** |
+| **Total development cost** | **~$10.9M** |
 
 The small unit sizes — 600 sqft for the 1BR units, 650 sqft for the townhouses — are financially significant. The developer maximizes unit count (and therefore rental income) while minimizing construction cost per unit. At 26 of 30 new units under 700 sqft, this project achieves high density at relatively low construction cost per dollar of GFA.
 
@@ -130,7 +129,7 @@ Capitalizing at a 5.5% cap rate (appropriate for stabilized multifamily in subur
 
 > **Estimated stabilized asset value: ~$15.0M**
 
-Against a total development cost of approximately $12.1M, the developer's equity profit at stabilization is approximately **$2.5–3.0M** — before accounting for refinancing proceeds and long-term appreciation. The smaller GFA and lower construction cost relative to income makes this a meaningfully profitable project on a cost-in basis.
+Against a total development cost of approximately $10.9M (no land acquisition — the developer already owned the parcels), the developer's equity profit at stabilization is approximately **$4.0–4.5M** — before accounting for refinancing proceeds and long-term appreciation. The smaller GFA and lower construction cost relative to income makes this a meaningfully profitable project on a cost-in basis.
 
 ---
 
@@ -138,11 +137,11 @@ Against a total development cost of approximately $12.1M, the developer's equity
 
 The most significant financial transfer is not the profit margin but the **upzoning value** — the increase in land and asset value created by the AH-12 zoning that would not exist under by-right zoning.
 
-The adjacent R4A affordable housing overlay — the next most permissive residential zone on Hamilton Avenue directly behind these lots — permits approximately 17 units per acre. Applied to 0.69 acres, by-right development would yield approximately **12 units**.
+The adjacent R4A affordable housing overlay — the next most permissive residential zone on Hamilton Avenue directly behind these lots — permits approximately 17 units per acre. Applied to 0.66 acres, by-right development would yield approximately **11 units**.
 
 | Scenario | Units | Est. NOI | Est. Asset Value |
 |:---------|:-----:|:--------:|:----------------:|
-| By-right (R4A, ~17 du/acre) | ~12 | ~$275,000 | ~$5.0M |
+| By-right (R4A, ~17 du/acre) | ~11 | ~$275,000 | ~$5.0M |
 | AH-12 as proposed (61 du/acre) | 42 | ~$827,000 | ~$15.0M |
 | **Upzoning value** | | | **~$10.0M** |
 
@@ -192,9 +191,9 @@ Each of these waivers has a dollar value. They are not captured in this analysis
 | Metric | Estimate |
 |:-------|:--------:|
 | Total new GFA | ~23,355 sqft |
-| Total development cost | ~$12.1M |
+| Total development cost | ~$10.9M |
 | Stabilized asset value | ~$15.0M |
-| Developer profit at stabilization | ~$2.5–3.0M |
+| Developer profit at stabilization | ~$4.0–4.5M |
 | Upzoning value (AH-12 vs. by-right R4A) | ~$8–10M |
 | NPV of affordable rent subsidy (all 8 units, 30 yr) | ~$2.0M |
 | NPV attributable to the 2 *net additional* affordable units | ~$500,000 |
@@ -208,7 +207,6 @@ This analysis is a pro forma estimate, not a certified appraisal. Key uncertaint
 
 - The actual bedroom mix and rent schedule of the 8 affordable units (not yet public)
 - Whether the development will include below-grade parking (which would significantly increase hard costs)
-- The developer's actual land acquisition cost
 - Future Princeton rental market conditions over the 30-year deed restriction period
 - Whether the development will be sold, refinanced, or held — each produces different returns
 
