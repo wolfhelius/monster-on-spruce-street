@@ -1,0 +1,27 @@
+title: The Monster on Spruce Street
+description: A neighborhood's account of the proposed 30-unit development at 86–96 Spruce Street, Princeton NJ
+baseurl: "/giant-on-spruce-street"
+url: "https://yourusername.github.io"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Colors
+color_scheme: light
+
+# Navigation order
+nav_sort: order
+
+# Footer
+footer_content: "Adam Wolf · 82 Spruce Street, Princeton NJ · <a href='mailto:adam.von.wolfhausen@gmail.com'>adam.von.wolfhausen@gmail.com</a>"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
