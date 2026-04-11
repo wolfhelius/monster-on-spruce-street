@@ -63,6 +63,12 @@ These standards are more permissive than any other residential zone in the Borou
 
 The proposed development would provide **17 parking spaces for 42 total units** — fewer than one space for every two households. Current tenants at 86–88 Spruce already have a right to one space per unit, which counts against those 17. And all of that parking would be reached through Pine Street, a narrow one-way street that dead-ends at Spruce.
 
+![Proposed site plan for 86–96 Spruce Street](fig/spruceplan1.png)
+*Figure 1: Proposed site plan for 86–96 Spruce Street.*
+
+![Proposed site plan for 86–96 Spruce Street — additional view](fig/spruceplan2.png)
+*Figure 2: Proposed site plan — additional view.*
+
 ## What Concerns Me About the Process
 
 Council President Mia Sacks described this site publicly as "a late inclusion to the Fourth Round" — meaning it was added to Princeton's housing plan after the main planning process was complete, without the analysis that other sites went through.
