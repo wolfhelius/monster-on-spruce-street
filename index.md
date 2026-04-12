@@ -69,6 +69,12 @@ The proposed development would provide **17 parking spaces for 42 total units** 
 ![Proposed site plan for 86–96 Spruce Street — additional view](fig/spruceplan2.png)
 *Figure 2: Proposed site plan — additional view.*
 
+### The financial stakes
+
+The rezoning itself is the prize — not the development. A [detailed pro forma analysis](financial-analysis) of this project estimates that the AH-12 ordinance created approximately **$8.5 million in new property value** the moment it was adopted, by granting permission to build at nearly four times the density the Master Plan contemplates for this neighborhood. That value transferred to Barsky Enterprises by municipal vote, not by any investment or improvement on the developer's part.
+
+The developer does not need to build a single unit to realize that value. The rezoned parcels could be sold to a private equity buyer tomorrow, and a corporate owner would carry full legal entitlement to enforce the new zoning — including the right to sue the municipality to compel it. Promises associated with this development, such as the bike path to downtown referenced by Council President Sacks in *Town Topics*, are not conditions written into the ordinance and would not be binding on any future owner.
+
 ## What Concerns Me About the Process
 
 Council President Mia Sacks described this site publicly as "a late inclusion to the Fourth Round" — meaning it was added to Princeton's housing plan after the main planning process was complete, without the analysis that other sites went through. In fact the site drawing dates from May 2025 and the draft zoning submitted to the Fourth Round is from June 2025, meaning that the city essentially greenlit a major development at the behest of Barsky Enterprises immediately and without any community engagement. Unlike all the other Affordable Housing districts, this development sits far outside the areas targeted for densification in the master plan (ie Nassau, Witherspoon and North Harrison), and was never contemplated in the Reexamination. 

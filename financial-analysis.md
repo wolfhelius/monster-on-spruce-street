@@ -28,9 +28,9 @@ The AH-12 rezoning handed Barsky Enterprises permission to build at **61 units p
 
 In exchange, the community received **2 affordable units above what the law already requires**. The mandatory 20% inclusionary set-aside would have produced 6 affordable units from any 30-unit development. The AH-12 ordinance produces 8 — a net addition of 2 units.
 
-The implicit public subsidy per additional affordable unit — measured as the net present value of rent foregone over the 30-year deed restriction period — is approximately **$250,000 per unit**.
+The implicit public subsidy per additional affordable unit — measured as the net present value of rent foregone over the 30-year deed restriction period — is approximately **$260,000 per unit**.
 
-Put differently: Princeton rezoned a residential block to densities exceeding every other zone in the municipality, waived standard stormwater, traffic, and fire access requirements, and provided no compensation to neighbors — in exchange for 2 affordable apartments worth roughly $500,000 in NPV terms, against an upzoning gift of $8–10 million. The implied exchange ratio is approximately **20:1**.
+Put differently: Princeton rezoned a residential block to densities exceeding every other zone in the municipality, waived standard stormwater, traffic, and fire access requirements, and provided no compensation to neighbors — in exchange for 2 affordable apartments worth roughly $525,000 in NPV terms, against an upzoning gift of $8–10 million. The implied exchange ratio is approximately **16:1**.
 
 ---
 
@@ -89,31 +89,27 @@ The small unit sizes — 600 sqft for the 1BR units, 650 sqft for the townhouses
 
 Income eligibility at 195 Nassau is capped as follows: $47,150 for a single-person household; $86,160 for two persons; $96,960 for three; $107,680 for four.
 
-The ordinance requires 8 affordable units. The bedroom mix is not yet public. For this analysis we assume an average affordable rent of approximately $1,150/month — consistent with a mix weighted toward 2BR low and moderate units, which matches the 195 Nassau profile.
+The ordinance requires 8 affordable units. The bedroom mix is not yet public. Given the unit sizes — the 6 townhouse units on Lot 64 (650 sqft) and the smallest studio-scale 1BR units in the main building (600 sqft) are the most likely candidates — the affordable units will be predominantly studio or 1BR tier, consistent with the $980/month low-income studio at 195 Nassau. This analysis uses **$980/month** as the affordable unit rent.
 
-The ordinance requires 8 affordable units. The bedroom mix is not yet public. Given the unit sizes (most new units are small 1BR or studio-scale), affordable units at this site will likely be predominantly 1BR or studio tier — consistent with the $980/month low-income studio and $1,195/month low-income 2BR at 195 Nassau. This analysis uses a blended average affordable rent of **$1,050/month**.
-
-**Market-rate unit mix and estimated rents:**
+**New market-rate unit mix and estimated rents:**
 
 | Unit type | Count | Size | Est. monthly rent | Annual gross |
 |:----------|:-----:|:----:|:-----------------:|:------------:|
-| 1BR, 600 sqft (main building) | 20 | 600 sqft | $2,400 | $576,000 |
+| 1BR, 600 sqft (main building, market-rate) | 18 | 600 sqft | $2,400 | $518,400 |
 | Large units, 1,985 sqft (main building) | 3 | 1,985 sqft | $4,200 | $151,200 |
-| Townhouse units, 650 sqft (Lot 64) | 1 | 650 sqft | $2,500 | $30,000 |
 | Standalone home, 1,500 sqft | 1 | 1,500 sqft | $3,200 | $38,400 |
-| Existing retained units (est.) | 1 | — | $2,200 | $26,400 |
-| **Market-rate subtotal** | **26** | | | **~$822,000** |
+| **New market-rate subtotal** | **22** | | | **~$708,000** |
 
-*Note: 5 of the 30 new units plus existing retained units are counted as market-rate here, with 8 new units designated affordable.*
+*Note: The 6 townhouse units (650 sqft, Lot 64) and 2 of the 1BR studio-scale units are designated affordable, accounting for all 8 required units. Existing retained units are shown separately in the income table below.*
 
 **Stabilized annual gross income:**
 
 | Income stream | Annual |
 |:--------------|:------:|
-| Market-rate units (26 units, blended) | ~$822,000 |
-| Affordable units (8 units, avg $1,050/mo) | ~$100,800 |
+| New market-rate units (22 units) | ~$708,000 |
+| Affordable units (8 units, avg $980/mo) | ~$94,000 |
 | Existing retained units (12 units, avg $1,800/mo est.) | ~$259,200 |
-| **Gross potential rent** | **~$1,182,000** |
+| **Gross potential rent** | **~$1,061,000** |
 
 ### Net operating income and asset value
 
@@ -121,15 +117,15 @@ Applying a standard vacancy and operating expense ratio of 30% (conservative for
 
 | Item | Amount |
 |:-----|:------:|
-| Gross potential rent | ~$1,182,000 |
-| Less vacancy + operating expenses (30%) | (~$354,600) |
-| **Net operating income (NOI)** | **~$827,400** |
+| Gross potential rent | ~$1,061,000 |
+| Less vacancy + operating expenses (30%) | (~$318,300) |
+| **Net operating income (NOI)** | **~$742,700** |
 
 Capitalizing at a 5.5% cap rate (appropriate for stabilized multifamily in suburban NJ):
 
-> **Estimated stabilized asset value: ~$15.0M**
+> **Estimated stabilized asset value: ~$13.5M**
 
-Against a total development cost of approximately $10.9M (no land acquisition — the developer already owned the parcels), the developer's equity profit at stabilization is approximately **$4.0–4.5M** — before accounting for refinancing proceeds and long-term appreciation. The smaller GFA and lower construction cost relative to income makes this a meaningfully profitable project on a cost-in basis.
+Against a total development cost of approximately $10.9M (no land acquisition — the developer already owned the parcels), the developer's equity profit at stabilization is approximately **$2.6M** — before accounting for refinancing proceeds and long-term appreciation. The smaller GFA and lower construction cost relative to income makes this a meaningfully profitable project on a cost-in basis.
 
 ---
 
@@ -137,15 +133,15 @@ Against a total development cost of approximately $10.9M (no land acquisition �
 
 The most significant financial transfer is not the profit margin but the **upzoning value** — the increase in land and asset value created by the AH-12 zoning that would not exist under by-right zoning.
 
-The adjacent R4A affordable housing overlay — the next most permissive residential zone on Hamilton Avenue directly behind these lots — permits approximately 17 units per acre. Applied to 0.66 acres, by-right development would yield approximately **11 units**.
+The adjacent R4A affordable housing overlay — the next most permissive residential zone on Hamilton Avenue directly behind these lots — permits approximately 17 units per acre. Applied to 0.66 acres, by-right density would yield approximately **11 units** — closely matching the 12 units (10-unit apartment building plus a duplex) that already exist on the site today.
 
 | Scenario | Units | Est. NOI | Est. Asset Value |
 |:---------|:-----:|:--------:|:----------------:|
-| By-right (R4A, ~17 du/acre) | ~11 | ~$275,000 | ~$5.0M |
-| AH-12 as proposed (61 du/acre) | 42 | ~$827,000 | ~$15.0M |
-| **Upzoning value** | | | **~$10.0M** |
+| By-right / existing (R4A, ~17 du/acre) | ~12 | ~$275,000 | ~$5.0M |
+| AH-12 as proposed (61 du/acre) | 42 | ~$743,000 | ~$13.5M |
+| **Upzoning value** | | | **~$8.5M** |
 
-Even using conservative assumptions, the upzoning created by Ordinance #2026-07 is worth **$8–10 million** in additional asset value. This value was created by a municipal ordinance, not by the developer's capital or ingenuity. It transferred directly to the developer.
+Even using conservative assumptions, the upzoning created by Ordinance #2026-07 is worth approximately **$8.5 million** in additional asset value. This value was created by a municipal ordinance, not by the developer's capital or ingenuity. It transferred directly to the developer.
 
 ---
 
@@ -155,18 +151,18 @@ NJ affordable housing deed restrictions run for a minimum of 30 years. During th
 
 The net present value of that rent differential, discounted at 5% over 30 years, is the **implicit public subsidy** — the value the developer accepts below market in exchange for the rezoning.
 
-The 600 sqft 1BR units — the most common type in the development — rent at approximately $2,400/month at market. Affordable units at the same size tier (comparable to the $980 low-income studio at 195 Nassau) generate roughly $1,050/month. The annual rent differential per affordable unit is therefore approximately $16,200.
+The 600 sqft 1BR units — the most common market-rate type in the development — rent at approximately $2,400/month. Affordable units at the same size tier (comparable to the $980/month low-income studio at 195 Nassau) generate roughly $980/month. The annual rent differential per affordable unit is therefore approximately $17,040.
 
 | Calculation | Amount |
 |:------------|:------:|
-| Market rent foregone per affordable unit (annual) | ~$16,200 |
-| Total for 8 units (annual) | ~$129,600 |
-| NPV at 5% discount rate over 30 years | **~$2.0M** |
-| Of which: units above the 6-unit legal mandate (2 units) | **~$500,000** |
+| Market rent foregone per affordable unit (annual) | ~$17,040 |
+| Total for 8 units (annual) | ~$136,320 |
+| NPV at 5% discount rate over 30 years | **~$2.1M** |
+| Of which: units above the 6-unit legal mandate (2 units) | **~$525,000** |
 
-**The net public subsidy received in exchange for ~$10M in upzoning value: approximately $500,000.**
+**The net public subsidy received in exchange for ~$8.5M in upzoning value: approximately $525,000.**
 
-Or framed differently: the municipality gave the developer $10 million in rezoning value in exchange for 2 affordable apartments worth $500,000 in NPV terms — a ratio of roughly **20:1**.
+Or framed differently: the municipality gave the developer $8.5 million in rezoning value in exchange for 2 affordable apartments worth $525,000 in NPV terms — a ratio of roughly **16:1**.
 
 This does not mean the development is without public benefit. The 6 mandatory affordable units have real value to their occupants. But those 6 units would have been required of *any* 30-unit development in Princeton under the standard 20% inclusionary set-aside — no special zoning required.
 
@@ -192,12 +188,12 @@ Each of these waivers has a dollar value. They are not captured in this analysis
 |:-------|:--------:|
 | Total new GFA | ~23,355 sqft |
 | Total development cost | ~$10.9M |
-| Stabilized asset value | ~$15.0M |
-| Developer profit at stabilization | ~$4.0–4.5M |
-| Upzoning value (AH-12 vs. by-right R4A) | ~$8–10M |
-| NPV of affordable rent subsidy (all 8 units, 30 yr) | ~$2.0M |
-| NPV attributable to the 2 *net additional* affordable units | ~$500,000 |
-| Implied exchange ratio (upzoning value : net affordable NPV) | ~20:1 |
+| Stabilized asset value | ~$13.5M |
+| Developer profit at stabilization | ~$2.6M |
+| Upzoning value (AH-12 vs. by-right R4A) | ~$8.5M |
+| NPV of affordable rent subsidy (all 8 units, 30 yr) | ~$2.1M |
+| NPV attributable to the 2 *net additional* affordable units | ~$525,000 |
+| Implied exchange ratio (upzoning value : net affordable NPV) | ~16:1 |
 
 ---
 
