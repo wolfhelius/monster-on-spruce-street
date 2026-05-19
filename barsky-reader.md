@@ -100,6 +100,9 @@ After rejection, Daniel Barsky negotiated directly with Save Jugtown. The redesi
 
 The *Town Topics* account of the compromise hearing quotes Barsky: "I'm really excited that we're finally here." Save Jugtown attorney Bruce Afran said that after the original rejection, "both sides immediately reached out, really demonstrating what planning is about when it works."
 
+## 11 Seminary Ave, Hopewell
+
+https://web.archive.org/web/20180917200451/https://mercerme.com/proposed-development-on-seminary-ave-discussed-in-hopewell-borough/
 ---
 
 ## The Pattern
