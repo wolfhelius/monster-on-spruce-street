@@ -3,16 +3,20 @@ layout: post
 title: "A Barsky Reader"
 date: 2026-05-12
 categories: [background, developer]
-description: "Four documented conflicts spanning two decades reveal a consistent pattern of aggressive development proposals, contempt for neighbor concerns, and a municipal planning process that repeatedly enables them."
+description: "Barsky documentation"
 ---
 
-I have lived my whole life suspicious of patterns: patterns of money and power, patterns of racism and sexism, patterns of exploitation of people and nature. And now a new thing comes into my life that scrambles the pattern: it looks like town officials colluded with a developer to approve an unusually massive project outside the boundaries they set out for themselves in the Master Plan, and never bothered to tell my neighborhood about it. They took away my sun by allowing a 45-foot wall on the property line. But to hear city officials tell the story, this is all about affordable housing, addressing structural racism, creating a more diverse, equitable, and inclusive Princeton.
+I have lived my whole life suspicious of patterns: patterns of money and power, patterns of racism and sexism, patterns of exploitation of people and nature. And now a new thing comes into my life that scrambles the pattern: it looks like town officials colluded with a developer to approve an unusually massive project outside the boundaries they set out for themselves in the Master Plan, and never bothered to tell my neighborhood about it. They took away my sun by allowing a 45-foot wall on our property line. But to hear city officials tell the story, this is all about affordable housing, addressing structural racism, creating a more diverse, equitable, and inclusive Princeton.
 
-Obviously that raises the question: Am I the asshole? I am sure some of you have an answer already!
+Obviously that raises the question: 
+
+>_Am I the asshole?_ 
+
+(I am sure some of you have an answer already!)
 
 But then I started thinking about the developer: Barsky. Is he asking himself this question? It seems lopsided to me that I should use this opportunity for self-reflection if no one else is.
 
-So I did some research to better understand one of the people on the other side of this conflict. This is what I found. The TLDR is that this is not about affordable housing, addressing structural racism, creating a more diverse, equitable, and inclusive Princeton. It is about a developer who has spent twenty years pushing Princeton's planning process to its limits, and a planning process that has spent twenty years letting him.
+So I did some research into public records to better understand one of the people on the other side of this conflict. This is what I found. The TLDR is that this is not about affordable housing, addressing structural racism, creating a more diverse, equitable, and inclusive Princeton. It is about a developer who has spent twenty years pushing Princeton's planning process to its limits, and a planning process that has spent twenty years letting him.
 
 ---
 
@@ -20,19 +24,25 @@ So I did some research to better understand one of the people on the other side 
 
 This is a living document. It will grow. Current and planned sections:
 
+0. **Master Plan and Reexamination** -- city residents reacting to the teardown epidemic 
 1. **Newspaper articles with choice quotes** — four documented conflicts, 2000–2025 *(below)*
 2. **Family diagram** — the Barsky entity structure: RB Homes, related LLCs, family roles *(coming)*
 3. **Public records: purchases and sales** — deed research across ~114 Mercer County properties *(coming)*
 4. **Lawsuits** — litigation history, who sued whom, and who won *(coming)*
 5. **The built environment** — an NDVI analysis asking whether Barsky properties are measurably less green than comparable Princeton parcels, and what that means for urban heat, tree canopy, and the public good *(coming)*
 
----
+
+## 0. **2023 Master Plan and Reexamination**
+
+This is the very first bullet of its Reexamination report that informs the revised city Master Plan:
+
+![Teardowns front and center](fig/reexamination_teardowns.png)
+
+## 1. **Newspaper articles with choice quotes**
 
 The developer proposing to transform 86–94 Spruce Street into a 30-unit apartment complex is not new to Princeton, and not new to controversy. Roman Barsky and his son Daniel have been building in this town since 1995. Over that time, a consistent pattern has emerged: proposals that push to or beyond the legal limit, characterization of neighbor opposition as irrational or "silly," and a municipal planning apparatus that has repeatedly created the zoning instruments enabling their projects.
 
 What follows is drawn from contemporaneous news reporting. It is not an argument against development. It is a record.
-
----
 
 ## I. Barsky Court, Nassau Street — *c. 2000–2004*
 
