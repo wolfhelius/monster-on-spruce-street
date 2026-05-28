@@ -1,3 +1,6 @@
+---
+published: false
+---
 # Dramatis Personae: The Barsky Family & Associated Entities
 
 *Prepared in connection with the analysis of Barsky family property transactions in Princeton, NJ, and their relationship to the residential tear-down/replacement trend documented in the 2023 Princeton Reexamination Report.*

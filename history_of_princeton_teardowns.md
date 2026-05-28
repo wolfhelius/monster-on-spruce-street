@@ -1,3 +1,6 @@
+---
+published: false
+---
 # A History of Princeton Teardowns
 
 *Compiled for the Monster on Spruce Street project*
