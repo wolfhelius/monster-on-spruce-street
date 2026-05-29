@@ -4,6 +4,7 @@ title: "A Barsky Reader"
 date: 2026-05-12
 categories: [background, developer]
 description: "Barsky documentation"
+published: false
 ---
 
 I have lived my whole life suspicious of patterns: patterns of money and power, patterns of racism and sexism, patterns of exploitation of people and nature. And now a new thing comes into my life that scrambles the pattern: it looks like town officials colluded with a developer to approve an unusually massive project outside the boundaries they set out for themselves in the Master Plan, and never bothered to tell my neighborhood about it. They took away my sun by allowing a 45-foot wall on our property line. But to hear city officials tell the story, this is all about affordable housing, addressing structural racism, creating a more diverse, equitable, and inclusive Princeton.

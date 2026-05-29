@@ -1,4 +1,9 @@
-# Barsky wrote his other zoning
+=======
+---
+published: false
+---
+
+# Barsky wrote his own zoning
 ## and other documents that show we never had a chance 
 
 June 25, 2025 Planning Board Meeting
