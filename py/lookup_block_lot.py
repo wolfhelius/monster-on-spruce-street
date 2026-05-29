@@ -4,8 +4,9 @@ lookup_block_lot.py
 Bulk address → Block/Lot lookup for NJ properties using the
 NJ Geographic Information Network (NJGIN) public ArcGIS REST API.
 
-Reads barsky_property_sites_v2.csv, fills in missing block/lot values,
-writes barsky_property_sites_v3.csv.
+Reads barsky_property_sites_v3.csv, fills in missing block/lot and all
+tax-record fields (owner address, assessed value, deed info, etc.),
+writes barsky_property_sites_v4.csv.
 
 Requirements:
     pip install requests pandas
@@ -14,16 +15,17 @@ Usage:
     python lookup_block_lot.py
 
 Notes:
-- Targets rows where block is blank (the 37 new RB Homes addresses
-  plus any other rows still missing block/lot).
+- Rows already having block/lot are queried by block/lot (precise).
+- Rows missing block/lot are queried by address (fuzzy PROP_LOC match).
+- Rows where api_address is already populated are skipped (idempotent).
 - Municipality code 1114 = Princeton (consolidated, post-2013 merger).
   For addresses in other towns, codes are set per TOWN column.
 - The API returns current tax parcel data. Parcels that were
   subdivided or renumbered since the Barsky transactions may show
   the current lot number, not the historic one. Always cross-check
   against the deed instrument.
-- Owner names are redacted per Daniel's Law; this script only
-  retrieves block, lot, and address fields.
+- Owner names are redacted per Daniel's Law; owner mailing address
+  (ST_ADDRESS / CITY_STATE) is present and populated.
 """
 
 import time
@@ -34,16 +36,16 @@ import pandas as pd
 # ── Municipality codes (NJ MOD-IV 4-digit codes) ──────────────────────────
 MUN_CODES = {
     'Princeton':          '1114',   # consolidated since 2013
-    'Hopewell Borough':   '1106',
-    'Hopewell Township':  '1107',
-    'Ewing Township':     '1103',
-    'West Windsor':       '1116',
-    'East Windsor':       '1202',   # Mercer County
-    'Trenton':            '1115',
-    'Robbinsville':       '1111',
-    'Hamilton Township':  '1105',
-    'Lawrence Township':  '1109',
-    'Plainsboro':         '1118',   # Middlesex County — different dataset
+    'Hopewell Borough':   '1105',
+    'Hopewell Township':  '1106',
+    'Ewing Township':     '1102',
+    'West Windsor':       '1115',
+    'East Windsor':       '1201',   # Mercer County
+    'Trenton':            '1111',
+    'Robbinsville':       '1110',
+    'Hamilton Township':  '1104',
+    'Lawrence Township':  '1108',
+    'Plainsboro':         '1117',   # Middlesex County — different dataset
     'Morristown':         '1401',   # Morris County — different dataset
 }
 
@@ -54,7 +56,13 @@ BASE_URL = (
     "Parcels_Composite_NJ_WM/FeatureServer/0/query"
 )
 
-OUT_FIELDS = "PCLBLOCK,PCLLOT,PCLQCODE,PROP_LOC,PAMS_PIN"
+OUT_FIELDS = (
+    "PCLBLOCK,PCLLOT,PCLQCODE,PROP_LOC,PAMS_PIN,"
+    "ST_ADDRESS,CITY_STATE,ZIP_CODE,"
+    "NET_VALUE,LAST_YR_TX,SALE_PRICE,"
+    "DEED_BOOK,DEED_PAGE,DEED_DATE,"
+    "YR_CONSTR,DWELL,PROP_CLASS,CALC_ACRE,BLDG_DESC"
+)
 
 
 def parse_address(address: str):
@@ -121,6 +129,43 @@ def query_parcel(address: str, mun_code: str, session: requests.Session):
         return []
 
 
+def _normalize(val: str) -> str:
+    """Strip trailing .0 from whole-number block/lot values (artifact of CSV float storage)."""
+    try:
+        f = float(val)
+        return str(int(f)) if f == int(f) else val
+    except (ValueError, OverflowError):
+        return val
+
+
+def query_parcel_by_block_lot(block: str, lot: str, mun_code: str, session: requests.Session):
+    """
+    Query NJGIN API by block/lot — precise lookup for rows that already
+    have known block/lot values. Uses the first lot if the field contains
+    a comma-separated list.
+    """
+    first_lot = _normalize(lot.split(',')[0].strip())
+    block     = _normalize(block)
+    where = f"PCL_MUN='{mun_code}' AND PCLBLOCK='{block}' AND PCLLOT='{first_lot}'"
+    params = {
+        'where': where,
+        'outFields': OUT_FIELDS,
+        'returnGeometry': 'false',
+        'f': 'json',
+    }
+    try:
+        resp = session.get(BASE_URL, params=params, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        if 'error' in data:
+            print(f"  [API ERROR] block {block} lot {first_lot}: {data['error']}")
+            return []
+        return [f['attributes'] for f in data.get('features', [])]
+    except requests.RequestException as e:
+        print(f"  [REQUEST ERROR] block {block} lot {first_lot}: {e}")
+        return []
+
+
 def pick_best_match(features: list, address: str):
     """
     If multiple parcels returned, try to pick the best match.
@@ -139,15 +184,15 @@ def pick_best_match(features: list, address: str):
 
 
 def main():
-    input_file  = '../dat/barsky_property_sites_v2.csv'
-    output_file = '../dat/barsky_property_sites_v3.csv'
+    input_file  = '../dat/barsky_property_sites_v3.csv'
+    output_file = '../dat/barsky_property_sites_v4.csv'
 
     df = pd.read_csv(input_file, dtype=str).fillna('')
 
-    # Target rows with missing block or flagged as needing lookup
-    needs_lookup = df['block'].eq('') | df['status'].eq('BLOCK/LOT NEEDED')
+    # Target every row that hasn't been enriched yet (api_address still blank)
+    needs_lookup = df['api_address'].eq('')
     targets = df[needs_lookup].copy()
-    print(f"Rows needing block/lot lookup: {len(targets)}")
+    print(f"Rows needing API enrichment: {len(targets)}")
 
     session = requests.Session()
     session.headers.update({'User-Agent': 'barsky-research/1.0'})
@@ -155,66 +200,100 @@ def main():
     results = []
 
     for idx, row in targets.iterrows():
-        address = row['address']
-        town    = row['town'] if row['town'] else 'Princeton'
+        address  = row['address']
+        town     = row['town'] if row['town'] else 'Princeton'
         mun_code = MUN_CODES.get(town, '1114')
+        block    = row['block'].strip()
+        lot      = row['lot'].strip()
 
-        print(f"  Querying: {address!r} (mun={mun_code}) ...", end=' ')
+        have_block_lot = bool(block and lot)
 
-        features = query_parcel(address, mun_code, session)
-        best     = pick_best_match(features, address)
+        if have_block_lot:
+            print(f"  Querying by block/lot: {address!r} (block={block}, lot={lot}) ...", end=' ')
+            features = query_parcel_by_block_lot(block, lot, mun_code, session)
+        else:
+            print(f"  Querying by address: {address!r} (mun={mun_code}) ...", end=' ')
+            features = query_parcel(address, mun_code, session)
+
+        best = pick_best_match(features, address)
 
         if best:
-            block = str(best.get('PCLBLOCK', '')).lstrip('0') or ''
-            lot   = str(best.get('PCLLOT',   '')).lstrip('0') or ''
-            qcode = str(best.get('PCLQCODE', '')).strip()
-            pams  = str(best.get('PAMS_PIN',  '')).strip()
-            api_addr = str(best.get('PROP_LOC', '')).strip()
-            print(f"→ Block {block}, Lot {lot}  [{api_addr}]")
+            api_block = str(best.get('PCLBLOCK', '')).lstrip('0') or ''
+            api_lot   = str(best.get('PCLLOT',   '')).lstrip('0') or ''
+            pams      = str(best.get('PAMS_PIN', '') or '').strip()
+            api_addr  = str(best.get('PROP_LOC', '') or '').strip()
+            raw_date  = str(best.get('DEED_DATE', '') or '').strip()
+            deed_date = (
+                f"20{raw_date[0:2]}-{raw_date[2:4]}-{raw_date[4:6]}"
+                if len(raw_date) == 6 else raw_date
+            )
+            print(f"→ Block {api_block}, Lot {api_lot}  [{api_addr}]")
             results.append({
-                'idx': idx,
-                'block': block,
-                'lot': lot,
-                'pams_pin': pams,
-                'api_address': api_addr,
+                'idx':            idx,
+                'found':          True,
+                'block':          api_block,
+                'lot':            api_lot,
+                'pams_pin':       pams,
+                'api_address':    api_addr,
+                'owner_street':   str(best.get('ST_ADDRESS', '') or '').strip(),
+                'owner_city_st':  str(best.get('CITY_STATE', '') or '').strip(),
+                'net_value':      str(best.get('NET_VALUE',  '') or ''),
+                'last_yr_tax':    str(best.get('LAST_YR_TX', '') or ''),
+                'sale_price':     str(best.get('SALE_PRICE', '') or ''),
+                'deed_book':      str(best.get('DEED_BOOK',  '') or '').strip(),
+                'deed_page':      str(best.get('DEED_PAGE',  '') or '').strip(),
+                'deed_date':      deed_date,
+                'yr_constr':      str(best.get('YR_CONSTR',  '') or ''),
+                'dwell_units':    str(best.get('DWELL',       '') or ''),
+                'prop_class':     str(best.get('PROP_CLASS', '') or '').strip(),
+                'calc_acre':      str(best.get('CALC_ACRE',  '') or ''),
+                'bldg_desc':      str(best.get('BLDG_DESC',  '') or '').strip(),
                 'status': 'RECORDS GAP - SEARCH NEEDED'
                           if row['status'] == 'BLOCK/LOT NEEDED'
                           else row['status'],
-                'notes': row['notes'],
             })
         else:
             print(f"→ NOT FOUND")
+            new_status = 'BLOCK/LOT NOT FOUND' if not have_block_lot else row['status']
             results.append({
-                'idx': idx,
-                'block': '',
-                'lot': '',
-                'pams_pin': '',
-                'api_address': '',
-                'status': 'BLOCK/LOT NOT FOUND',
-                'notes': row['notes'],
+                'idx': idx, 'found': False,
+                'status': new_status,
             })
 
         time.sleep(0.3)   # be polite to the API
 
-    # Write results back to dataframe
-    if 'pams_pin' not in df.columns:
-        df.insert(df.columns.get_loc('block') + 2, 'pams_pin', '')
-    if 'api_address' not in df.columns:
-        df.insert(df.columns.get_loc('pams_pin') + 1, 'api_address', '')
+    # Ensure all API-derived columns exist in the right order after 'lot'
+    api_cols = [
+        'pams_pin', 'api_address',
+        'owner_street', 'owner_city_st',
+        'net_value', 'last_yr_tax', 'sale_price',
+        'deed_book', 'deed_page', 'deed_date',
+        'yr_constr', 'dwell_units', 'prop_class', 'calc_acre', 'bldg_desc',
+    ]
+    insert_after = df.columns.get_loc('lot') + 1
+    for col in api_cols:
+        if col not in df.columns:
+            df.insert(insert_after, col, '')
+        insert_after = df.columns.get_loc(col) + 1
 
     for r in results:
         i = r['idx']
-        if r['block']:
-            df.at[i, 'block']       = r['block']
-            df.at[i, 'lot']         = r['lot']
-            df.at[i, 'pams_pin']    = r['pams_pin']
-            df.at[i, 'api_address'] = r['api_address']
         df.at[i, 'status'] = r['status']
+        if not r['found']:
+            continue
+        # Only overwrite block/lot if the row didn't already have them
+        if not df.at[i, 'block']:
+            df.at[i, 'block'] = r['block']
+        if not df.at[i, 'lot']:
+            df.at[i, 'lot'] = r['lot']
+        for col in api_cols:
+            if r.get(col, '') != '':
+                df.at[i, col] = r[col]
 
     df.to_csv(output_file, index=False)
     print(f"\nDone. Written to {output_file}")
-    print(f"  Resolved:    {sum(1 for r in results if r['block'])}")
-    print(f"  Not found:   {sum(1 for r in results if not r['block'])}")
+    print(f"  Enriched:    {sum(1 for r in results if r['found'])}")
+    print(f"  Not found:   {sum(1 for r in results if not r['found'])}")
 
 
 if __name__ == '__main__':
