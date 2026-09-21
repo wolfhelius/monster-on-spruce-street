@@ -2,8 +2,14 @@
 layout: default
 title: The New Zoning Code
 nav_order: 1
+permalink: /
 description: "A Tree Streets reading of Princeton's September 2026 Code Diagnostic — what the proposed zoning rewrite would permit on our block, and what it would stop requiring a hearing for"
 ---
+
+[![The Tree Streets in the Lathrop atlas of 1905, every lot recorded with its owner's name](fig/treestreets/lathrop_1905.jpg)](https://townshipandborough.org/spy?v=16.97/-74.65288/40.35378/r445/bir_2015/slathrop_1905_p23)
+{: .text-center }
+
+*Spruce, Chestnut, Pine, Maple, and Linden in the Lathrop atlas of 1905 (plate 23). [Click to explore it yourself.](https://townshipandborough.org/spy?v=16.97/-74.65288/40.35378/r445/bir_2015/slathrop_1905_p23)*
 
 # What Princeton's New Zoning Code Means for Our Neighborhood
 
@@ -30,7 +36,7 @@ I read all of it, twice, because I have learned the hard way that the decisions 
 
 There is a public meeting on **Thursday, September 24**. This page is my attempt to tell you what is in the document before then.
 
-I want to say up front what I said in April: I support more housing in Princeton, and I support our affordable housing obligation. Our block already has single-family homes, duplexes, basement apartments, and small apartment buildings. We are not an enclave, and I am not arguing for one. I am arguing that the rules should be written in public, with the numbers on the table, and that the people who live with the result should be in the room.
+I want to say up front what I said [in April](note-to-neighbors): I support more housing in Princeton, and I support our affordable housing obligation. Our block already has single-family homes, duplexes, basement apartments, and small apartment buildings. We are not an enclave, and I am not arguing for one. I am arguing that the rules should be written in public, with the numbers on the table, and that the people who live with the result should be in the room.
 
 Because that argument depends on facts about this neighborhood rather than adjectives about it, I have also put [a portrait of the Tree Streets](treestreets) on this site — 172 residential lots, drawn from the tax rolls, the parcel GIS, and the building assessments. I draw on it below.
 

@@ -2,6 +2,7 @@
 layout: default
 title: A Note to My Neighbors
 nav_order: 3
+permalink: /note-to-neighbors/
 description: "Adam Wolf, 82 Spruce Street — regarding the proposed development at 86–88 and 92–94 Spruce Street"
 ---
 

@@ -5,6 +5,11 @@ nav_order: 2
 description: "A portrait of the Tree Streets — 172 residential lots, drawn from property tax records, parcel GIS, and building assessments"
 ---
 
+[![The Tree Streets in 1930 (background) and 1940 (inset)](fig/treestreets/treestreets_1940.jpg)](https://townshipandborough.org/spy?v=16.73/-74.65222/40.35333/r370/bortho_1930/sortho_1940)
+{: .text-center }
+
+*The Tree Streets in 1930 (background) and 1940 (inset). [Click to explore it yourself.](https://townshipandborough.org/spy?v=16.73/-74.65222/40.35333/r370/bortho_1930/sortho_1940)*
+
 # The Tree Streets Neighborhood
 {: .no_toc }
 
@@ -14,7 +19,7 @@ description: "A portrait of the Tree Streets — 172 residential lots, drawn fro
 
 ---
 
-<details open markdown="block">
+<details markdown="block">
   <summary>Contents</summary>
   {: .text-delta }
 1. TOC
