@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Documents
-nav_order: 4
+nav_order: 6
 description: "Key documents related to the AH-12 rezoning and legal challenge"
 ---
 

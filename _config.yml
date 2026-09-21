@@ -21,7 +21,12 @@ plugins:
   - jekyll-seo-tag
 
 # Exclude from build
+# Anything listed here is not copied into _site and is not served.
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - dat/          # property/owner working data — not for publication
+  - py/           # analysis scripts
+  - requirements.txt
+  - requirements.lock

@@ -5,3 +5,8 @@ _site/
 Gemfile.lock
 .bundle/
 vendor/
+
+# Working data and analysis scripts — excluded from the Jekyll build
+# (see _config.yml) and not tracked. Files stay on disk locally.
+dat/
+py/

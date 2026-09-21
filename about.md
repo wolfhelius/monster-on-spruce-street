@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About & FAQ
-nav_order: 5
+nav_order: 7
 description: "Frequently asked questions about the AH-12 rezoning challenge"
 ---
 

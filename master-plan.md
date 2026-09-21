@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Master Plan Inconsistencies
-nav_order: 2
+nav_order: 4
 description: "Analysis of how the proposed AH-12 rezoning conflicts with Princeton's 2023 Master Plan"
 ---
 
