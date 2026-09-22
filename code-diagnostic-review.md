@@ -48,7 +48,7 @@ Because that argument depends on facts about this neighborhood rather than adjec
 
 The Diagnostic now proposes a 28-article **Land Development Code**. Eight of those articles are the optional work: Code Administrators, Application Procedures, Site Plan Review, Land Use Approvals, Subdivision, Public Improvements, Development Checklist, and Master Plan Review.
 
-I am not against consolidating the codes. I think it is probably the right thing to do. But you cannot tell the public one scope, contract for it, and then deliver a larger one without saying so. I have asked the Municipality, in writing, to identify which contract task and which dollars cover it. That is a fair question with an easy answer if there is one.
+I am not against consolidating the codes. I think it is probably the right thing to do. But you cannot tell the public one scope, contract for it, and then deliver a larger one without saying so. I have asked the Municipality, [in writing](code-diagnostic-comments), to identify which contract task and which dollars cover it. That is a fair question with an easy answer if there is one.
 
 ## The good news
 
@@ -187,7 +187,7 @@ Nothing in the document says the Tree Streets. Nothing in the document says anyw
 
 **Come on Thursday, September 24.** Even if you say nothing. Rooms with residents in them produce different documents than rooms without.
 
-**Ask for three things.** They are reasonable, they are hard to refuse, and they are what I am asking in my written comments:
+**Ask for three things.** They are reasonable, they are hard to refuse, and they are what I am asking in my [written comments](code-diagnostic-comments):
 
 1. **Publish the numbers.** Before any dimensional control is eliminated, show the proposed heights, setbacks, coverage, and unit limits for each district — and how many additional units and bedrooms the new code would permit by right compared with today. And show the other side of that ledger: how many of the existing, unsubsidized, naturally affordable rentals the new envelope would make economic to demolish.
 2. **Publish the criteria and the map together.** Tell us how it will be decided which blocks become "Traditional Neighborhood" or "Neighborhood Mixed Residential," before the first draft, not after.

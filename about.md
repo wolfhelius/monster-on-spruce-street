@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About & FAQ
-nav_order: 7
+nav_order: 8
 description: "Frequently asked questions about the AH-12 rezoning challenge"
 ---
 
@@ -23,7 +23,7 @@ This site is maintained by **Adam Wolf**, a homeowner at 82 Spruce Street, Princ
 
 ## Are you opposed to affordable housing?
 
-No. Please read [the full letter]({{ '/note-to-neighbors/' | relative_url }}) — this is addressed directly and at length. The Tree Streets neighborhood is already one of Princeton's most dense and diverse residential blocks. The argument here is not "not here." It is "not like this, without proper study, proper notice, and at a density the Master Plan does not contemplate for our neighborhood."
+No. Please read [the full letter]({{ '/note-to-neighbors.html' | relative_url }}) — this is addressed directly and at length. The Tree Streets neighborhood is already one of Princeton's most dense and diverse residential blocks. The argument here is not "not here." It is "not like this, without proper study, proper notice, and at a density the Master Plan does not contemplate for our neighborhood."
 
 ## What is AH-12 zoning?
 

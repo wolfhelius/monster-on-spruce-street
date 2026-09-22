@@ -30,3 +30,4 @@ exclude:
   - py/           # analysis scripts
   - requirements.txt
   - requirements.lock
+  - phase1-formal-comments.txt   # plain-text copy for form submission
