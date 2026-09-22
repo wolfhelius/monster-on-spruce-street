@@ -28,11 +28,11 @@ description: "A Tree Streets reading of Princeton's September 2026 Code Diagnost
 
 ---
 
-## Why I read this
+## Why I read the Code Diagnostic
 
-On September 17, 2026, the Municipality released a **Code Diagnostic** prepared by the consulting firm Camiros. It is the first public product of a multi-year project to replace Princeton's zoning code. It is 67 pages, it is written in planner's language, and almost nobody outside Town Hall has or will read it. 
+On September 17, 2026, the Municipality released a **Code Diagnostic** prepared by the consulting firm Camiros. It is the first public product of a multi-year project to replace Princeton's zoning code. It is 67 pages, it is written in planner's language, and almost nobody outside 400 Witherspoon has or will read it. 
 
-I read all of it, twice, because I have learned the hard way that the decisions that change a neighborhood are made in documents like this one, with little time to review before it is ratified. 
+I read all of it, twice, because I have learned the hard way that the decisions that change a neighborhood are made in documents like this one, with little time to review before they are is ratified. 
 
 There is a public meeting on **Thursday, September 24**. This page is my attempt to tell you what is in the document before then.
 
@@ -42,7 +42,7 @@ Because that argument depends on facts about this neighborhood rather than adjec
 
 ## Broad thoughts
 
-**Most of what this document wants to do is good.** Princeton has operated under two zoning codes since consolidation in 2013 — one inherited from the Borough, one from the Township. Dozens of districts and overlays. Provisions written by different hands over fifty years. It is genuinely hard to use, even for people who do this for a living. Merging it into one code, with plain language, illustrations, and a single table showing what is allowed where, is a real public good. Predictability reduces anxiety and conflict.
+**Most of what this document wants to do is good.** Princeton has operated under two zoning codes since consolidation in 2013 — one inherited from the Borough, one from the Township. Dozens of districts and overlays. Provisions written by different hands since [at least 1955](https://townshipandborough.org/spy?v=13.90/-74.65207/40.34634/r0/bzoning_1955/sortho_1947). The zoning code is genuinely hard to use, even for people who do this for a living. A complete rewrite, with plain language, illustrations, and a single table showing what is allowed where, is a real public good. Predictability reduces anxiety and conflict.
 
 **One thing bothers me, and it is about trust rather than planning.** When Council hired Camiros in August 2025, the contract was for a *Zoning Code* update. The Request for Proposals had offered an optional second piece — rewriting the rest of the Land Use Code, the half that governs how projects get approved, who decides, and what notice is given. Camiros's proposal names that optional work only in its cover-page title. The cover letter is captioned "Re: Unified Zoning Code Update." The scope of services contains no task for it. The $305,780 fee is itemized task by task, with no line for it.
 
@@ -54,20 +54,16 @@ I am not against consolidating the codes. I think it is probably the right thing
 
 **If you own your home and want to improve it, this document is mostly written in your favor.** I want to be fair about that, because it is true and because most of these changes are overdue. We have an old neighborhood, and many lots are non-conforming. The prewar housing stock is charming, but can be challenging to upgrade because of the variances required.
 
-- **Additions get easier.** If your house sits closer to the side or rear line than today's rules allow — which describes a lot of houses on our streets — you would be able to extend along that same wall, up or out, without a variance (p. 65). 
-- **Rebuilding after a fire gets simpler.** Today, if your home is damaged beyond a percentage threshold, you can be forced into a fight about what percentage. The proposal would let you rebuild in the same place, at the same dimensions, if you apply within a set period (p. 64).
-- **Older houses stop being penalized for being old.** A "deemed conforming" provision would treat lawfully built dwelling types that no longer match current zoning as conforming rather than nonconforming (p. 65). In this neighborhood that chiefly means the roughly sixty-eight two-unit conversions that make up most of our rental stock — a genuine and overdue fix.
-- **ADUs get much easier.** Accessory dwelling units would be allowed anywhere single-family homes are, on lots as small as 3,000 square feet, with today's three-habitable-room limit removed and the rule that the entrance cannot face the same street dropped (pp. 11–12).
-- **The front setback rule gets sane.** Instead of a calculation involving everything within 500 feet, your front setback would be based on the houses immediately on either side of you (p. 16).
 - **Porches, eaves, bay windows, decks.** A single table would tell you what can project into a setback and by how much, instead of leaving it to interpretation (p. 47).
-- **Stormwater gets a real control.** Residential districts would gain a maximum impervious surface standard, and the former Borough districts would finally get lot coverage limits (p. 16).
-- **Bicycle parking** becomes part of site design rather than an afterthought (p. 51). I like bikes.
+- **Additions get easier.** If your house sits closer to the side or rear line than today's rules allow — which describes a lot of houses on our streets — you would be able to extend along that same wall, up or out, without a variance (p. 65). 
+- **ADUs get much easier.** Accessory dwelling units would be allowed anywhere single-family homes are, on lots as small as 3,000 square feet, with today's three-habitable-room limit removed and the rule that the entrance cannot face the same street dropped (pp. 11–12).
+- **Older houses stop being penalized for being old.** A "deemed conforming" provision would treat lawfully built dwelling types that no longer match current zoning as conforming rather than nonconforming (p. 65). In this neighborhood that chiefly means the roughly sixty-eight two-unit conversions that make up most of our rental stock — a genuine and overdue fix.
 
 If the code stopped there, I would write a letter of support and be done.
 
 ## The same provision, three readers
 
-It does not stop there, and the reason is not that any single provision is bad. It is that each one is read by three different people with three different amounts of leverage.
+The code revision is framed to benefit residents, property owners, and decision-makers (p. 5). However, the bulk of changes appear to benefit property developers and seem to cut against neighbors. It's not that any single provision is bad. It is that each one is read by three different people with three different amounts of leverage.
 
 I own my house and live in it. A provision that saves me a variance saves me one variance. The same provision, in the hands of someone who buys property for a living, is a standing permission applied to every lot they acquire. And for the person next door it is usually neither — it is a hearing that no longer happens.
 
@@ -131,7 +127,7 @@ You do not have to take the assessor's word for it. This is our neighborhood in 
 
 The thing to look at is the strips *between* the rows of houses — the side yards and back gardens, running the length of every block. We have an amazingly green neighborhood that is full of birds, butterflies, foxes and flowers. 
 
-We live here because we like a living neighborhood. To a developer it is headroom — the distance between what is standing and what an envelope-only code would permit, which is to say the entire margin. To the rest of us it is the side yards, the front setbacks, and the rear gardens, which is why the tree streets are so green. Remove the floor area ratio, the story cap, the minimum lot depth, and the combined side setbacks, and the thing being removed is not an abstraction. It is that four-fifths.
+We live here because we like a living neighborhood. To a developer it is headroom — the distance between what is standing and what an envelope-only code would permit, which is to say the entire margin. To the rest of us it is the side yards, the front setbacks, and the rear gardens, which is why the tree streets are so green. Remove the floor area ratio, the story cap, the minimum lot depth, and the combined side setbacks, and the thing being removed is not an abstraction. It is the vibrant greenery of our neighborhood.
 
 ### Three separate things, arriving together
 
@@ -160,8 +156,6 @@ Now put the dimensional changes together. The Diagnostic proposes to eliminate, 
 | Minimum off-street parking | 50 | Makes each new unit house its own car |
 
 What remains is the envelope: setbacks, height in feet, and lot coverage. Within that envelope, how many units, how many bedrooms, and how much floor area become largely unregulated. The numbers for each district have not been published.
-
-Parking is the one on that list that behaves differently from the rest, and it is worth separating out. The others cap what can be built. A parking minimum instead sets a *price* on building it: every additional unit has to be given somewhere to put a car, which costs land or costs structure. That is why it is so often the binding constraint on how many units will fit — and why removing it, on its own, can change what is worth building on a lot even if nothing else about the envelope moves.
 
 I know what this produces, because it was built next to me.
 
