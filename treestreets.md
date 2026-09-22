@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Tree Streets Neighborhood
+title: The Tree Streets
 nav_order: 2
 description: "A portrait of the Tree Streets — 172 residential lots, drawn from property tax records, parcel GIS, and building assessments"
 ---
