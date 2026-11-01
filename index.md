@@ -82,7 +82,7 @@ Council President Mia Sacks described this site publicly as "a late inclusion to
 
 Specifically:
 
-**No stormwater analysis was performed.** The site sits adjacent to a culverted section of Harry's Brook. [Prior development here in 2019–2020 was conditioned on installing rain gardens](docs/rain-gardens-86-spruce.pdf) to manage runoff. The new plan would eliminate those rain gardens and cover nearly the entire site in pavement, without any engineering study of the downstream impact.
+**No stormwater analysis was performed.** The site sits adjacent to a culverted section of Harry's Brook. [Prior development here in 2019–2020 was conditioned on installing rain gardens](docs/ryle_opra/201611_86_Spruce_Site_Plan.pdf) to manage runoff. The new plan would eliminate those rain gardens and cover nearly the entire site in pavement, without any engineering study of the downstream impact.
 
 **No traffic study was performed.** Hamilton Avenue — adjacent to the development — is identified in Princeton's own Master Plan as a Vision Zero safety priority corridor requiring improvements. Adding significant new vehicle trips through this intersection was not studied, nor was the impact of adding traffic on Pine Street.
 
@@ -94,7 +94,7 @@ That last point matters. New Jersey's Municipal Land Use Law (N.J.S.A. 40:55D-62
 
 ## What Has Happened Since
 
-I [filed a challenge](docs/legal-challenge.pdf) in Mercer County Superior Court on April 9, 2026. The challenge argues that the ordinance should be declared void due to defective notice, and that the rezoning is inconsistent with [Princeton's own 2023 Master Plan](docs/princeton-master-plan-2023.pdf) — a plan that our community spent two years and hundreds of public comments helping to shape.
+I [filed a challenge](docs/legal-challenge.pdf) in Mercer County Superior Court on April 9, 2026. The challenge argues that the ordinance should be declared void due to defective notice, and that the rezoning is inconsistent with [Princeton's own 2023 Master Plan](docs/public_docs/202311_Princeton-Master-Plan.pdf) — a plan that our community spent two years and hundreds of public comments helping to shape.
 
 I want to be clear about what the challenge does and does not seek. It does not challenge Princeton's Fourth Round Housing Plan as a whole, which I support. It does not seek to prevent affordable housing from being built in our neighborhood. It argues that this specific ordinance, applied to this specific site, was adopted without proper notice or adequate analysis — and that the community deserves a proper process.
 

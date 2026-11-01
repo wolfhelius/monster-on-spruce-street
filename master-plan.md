@@ -27,7 +27,7 @@ Submitted by Neighbors of Spruce Street and Pine Street · March 2026
 
 ## Our Support for the Master Plan
 
-The residents of Spruce Street, Pine Street, and the surrounding Tree Streets neighborhood strongly support [Princeton's 2023 Master Plan and Reexamination Report](docs/princeton-master-plan-2023.pdf). We endorse its commitment to expanding housing availability, particularly for middle-income households; reducing barriers to accessory dwelling units and missing-middle typologies; and concentrating higher-density growth in walkable, transit-accessible locations near the downtown core and Princeton Shopping Center corridor. We recognize and respect the Municipality's Fourth Round affordable housing obligations under New Jersey's Fair Housing Act.
+The residents of Spruce Street, Pine Street, and the surrounding Tree Streets neighborhood strongly support [Princeton's 2023 Master Plan and Reexamination Report](docs/public_docs/202311_Princeton-Master-Plan.pdf). We endorse its commitment to expanding housing availability, particularly for middle-income households; reducing barriers to accessory dwelling units and missing-middle typologies; and concentrating higher-density growth in walkable, transit-accessible locations near the downtown core and Princeton Shopping Center corridor. We recognize and respect the Municipality's Fourth Round affordable housing obligations under New Jersey's Fair Housing Act.
 
 Indeed, the Tree Streets neighborhood is itself a living model of what the Master Plan's missing-middle vision describes: a dense, walkable, multicultural, multi-income community made up of single-family homes, duplexes, accessory dwelling units, and small apartment buildings of six and ten units — all coexisting at a scale compatible with the surrounding residential fabric. We support the thoughtful continuation of this pattern.
 
@@ -87,7 +87,7 @@ The Master Plan's Mobility Element identifies **Hamilton Avenue / Wiggins Street
 
 ### 7. Solid Waste Management
 
-The Master Plan explicitly addresses multi-family waste management, noting that *"commercial buildings and multi-family developments containing more than four units must contract for their own solid waste collection."* The [proposed development's architect plan](docs/proposed-site-plan.pdf) shows only the existing trash bins serving the 12 existing sites, with no additional waste management plan. This could quadruple the required frequency of trash collection onto the site, via an already narrow access driveway. 
+The Master Plan explicitly addresses multi-family waste management, noting that *"commercial buildings and multi-family developments containing more than four units must contract for their own solid waste collection."* The [proposed development's architect plan](fig/spruceplan1.png) shows only the existing trash bins serving the 12 existing sites, with no additional waste management plan. This could quadruple the required frequency of trash collection onto the site, via an already narrow access driveway. 
 
 ### 8. Urban Tree Canopy and Biodiversity
 

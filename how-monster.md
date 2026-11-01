@@ -89,7 +89,7 @@ In March 2017, Jack West [requires the site plan to be amended](docs/ryle_opra/2
 
 > 1. The rain garden should be elongated along the entire width of the parking lot.
 
-*What makes everything above interesting:*
+**What makes everything above interesting:**
 
 - Barsky Enterprises closed on the property in May 2017 ([deed](docs/ryle_opra/201705_86_Spruce_Deed.pdf)), two months after the ZBA memorialized its resolution. Barsky didn’t inherit a gravel lot by accident; he bought one whose approval said: gravel, 21 spaces, no added runoff, shielded lighting.
 
@@ -119,8 +119,8 @@ If you keep reading the [exchange](docs/ryle_opra/201911_86_Spruce_Neighbor_Emai
 
 ![Lot Margin](fig/R.%2086%20Spruce%20Lot%20Margin.jpg)
 
-*Mr West if you are reading this:
-*
+**Mr West if you are reading this:**
+
 - Hadn’t you already co-written a memo to the ZBA saying the exact opposite of this? The issue with stormwater runoff is not simply impervious surface, but also speed. Why didn’t you share the memo and the resolution?
 
 - Doesn’t several thousand square feet of disturbance require some kind of formal process, perhaps including a revised site plan, an engineering review, stormwater/runoff analysis, re-noticing the neighbors?
@@ -135,7 +135,7 @@ If you keep reading the [exchange](docs/ryle_opra/201911_86_Spruce_Neighbor_Emai
 
 ![illuminating](fig/H.%20Light%20Spillage.jpg)
 
-Mr West if you are reading this:
+**Mr West if you are reading this:**
 
 - We and the previous owners asked Barsky Property Management to please change the lighting and they refused. Now it turns out this lighting was never supposed to be there. Who is supposed to hold developers accountable that they do the things they were supposed to do?
 
@@ -193,7 +193,7 @@ The Fourth Round Plan aka [Housing Element Fair Share Plan](docs/public_docs/202
 
 - _The Spruce Walk design shows only 17 spaces total. The photo shows 15 cars there now. RSIS minimums are 1.9 spaces/unit for this unit mix (N.J.A.C. 5:21-4.14), and current utilization is ~1.3 spaces/unit. Furthermore, the parking lane is 22 ft, whereas RSIS dictates a 24 ft lane._
 
-*Open Questions:*
+**Open Questions:**
 
 - Who wrote this?
 
@@ -213,7 +213,7 @@ What Mr Cohen didn't say is that the [zoning ordinance was already drafted](docs
 
 ![timestamp](fig/J.%20Ordinance%20Timestamp.png)
 
-*Mr Cohen if you are reading this:*
+**Mr Cohen if you are reading this:**
 
 - Why didn’t you post the ordinances with the HEFSP text so residents could have read it at the time?
 
@@ -221,7 +221,7 @@ What Mr Cohen didn't say is that the [zoning ordinance was already drafted](docs
 
 September 5, 2025, a [meeting with the Council’s Affordable Housing, Planning & Redevelopment Committee](docs/wolf_opra/20250905_FollowupMeeting.pdf), with Daniel and Roman Barsky, Marina Rubina, Chris Tarr, and city attorneys. They meet with the committee again on Friday, November 7, and on November 11th, Daniel Barsky writes to Justin Lesko with his [own redline of the zoning ordinance](docs/wolf_opra/20251111_BarskyRedlinedZoning.pdf). Justin forwards it that afternoon to councilmembers Mia Sacks and David Cohen, the town’s attorney, and staff. Note - at this point the existence of the zoning would only be known to someone who reviewed the submission to the court.
 
-What did Barsky change?
+**What did Barsky change?**
 
 - Narrowed the front yard requirement from buildings fronting “a public street” to buildings fronting Spruce Street.
 
@@ -276,7 +276,7 @@ Related to this email thread, an intriguing quote comes from Justin Lesko to Cou
 
 > “I just don't want a repeat of 375 Terhune where we expected one thing then the application looked like another thing and by then it was too late to do much about it.”
 
-*Mr Lesko if you are reading:*
+**Mr Lesko if you are reading:**
 
 - What happened at 375 Terhune?
 
@@ -302,7 +302,7 @@ While Justin does make reference to the proximity of the lot to the Nassau Corri
 
 ![285m proximity](fig/N.%20Proximity%20to%20MXD.png)
 
-*Mr Lesko if you are reading:*
+**Mr Lesko if you are reading:**
 
 - If you can zone this lot for a massive apartment building, can’t you make the same arguments about any lot in the Central Neighborhood?
 

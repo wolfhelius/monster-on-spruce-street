@@ -23,7 +23,7 @@ All source documents related to the proposed rezoning, legal challenge, and plan
 | [Appendix C — Notice Of Meeting](docs/appendix-c-notice.pdf) | Publication of notice to consider AH-12 |
 | [Appendix D — Notice Of Adoption](docs/appendix-d-adoption.pdf) | Publication of notice of adoption of AH-12 |
 | [Appendix E — Draft Ordinance](docs/appendix-e-draft-ordinance.pdf) | The rezoning ordinance as proposed June 2025 |
-| [Proposed Site Plan](docs/proposed-site-plan.pdf) | Site plan of May 2025 submitted with proposed rezoning |
+| [Proposed Site Plan](fig/spruceplan1.png) ([p. 2](fig/spruceplan2.png)) | Site plan of May 2025 submitted with proposed rezoning |
 
 ---
 
@@ -31,7 +31,7 @@ All source documents related to the proposed rezoning, legal challenge, and plan
 
 | Document | Description |
 |:---------|:------------|
-| [Princeton 2023 Master Plan](docs/princeton-master-plan-2023.pdf) | Full Master Plan and Reexamination Report |
+| [Princeton 2023 Master Plan](docs/public_docs/202311_Princeton-Master-Plan.pdf) | Full Master Plan and Reexamination Report |
 
 ---
 
@@ -39,8 +39,8 @@ All source documents related to the proposed rezoning, legal challenge, and plan
 
 | Document | Description |
 |:---------|:------------|
-| [2019–2020 Re-development of 86-88 Spruce including rain garden](docs/rain-gardens-86-spruce.pdf) | Prior approval including rain garden conditions |
-| [2019–2020 Re-development of 92-94 Spruce including rain garden](docs/prop-survey-92-spruce.pdf) | Prior approval including rain garden conditions |
+| [2019–2020 Re-development of 86-88 Spruce including rain garden](docs/ryle_opra/201611_86_Spruce_Site_Plan.pdf) | Prior approval including rain garden conditions |
+| [2019–2020 Re-development of 92-94 Spruce including rain garden](docs/wolf_opra/201810_92_Spruce_Street_Site_Plan.pdf) | Prior approval including rain garden conditions |
 
 ---
 
@@ -48,4 +48,4 @@ All source documents related to the proposed rezoning, legal challenge, and plan
 
 | Document | Description |
 |:---------|:------------|
-| [Master Plan Inconsistencies](master-plan.md) | Detailed analysis of conflicts with Princeton's 2023 Master Plan |
+| [Master Plan Inconsistencies](master-plan.html) | Detailed analysis of conflicts with Princeton's 2023 Master Plan |
