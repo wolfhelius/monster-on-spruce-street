@@ -10,3 +10,11 @@ vendor/
 # (see _config.yml) and not tracked. Files stay on disk locally.
 dat/
 py/
+
+# local env
+.env*
+.envrc
+
+# >100 MB, too big for GitHub; rsync between machines
+fig/K. Garbage Truck.mp4
+docs/public_docs/202506_HEFSP_full.pdf
